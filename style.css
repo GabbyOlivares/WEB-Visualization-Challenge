@@ -1,0 +1,152 @@
+/*---STYLE CSS--*/
+
+/* Body */
+body {
+    background-image: url("images/nature-1563305-wallhere.com.JPG");
+    height: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Navbar */
+  .navbar {
+    max-height: 60px;
+  }
+  .navigation .navbar-brand {
+    color: white;
+    margin-left: 0px;
+    padding: inherit;
+    font-weight: bold;
+    background-color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+    background-color: white;
+    font-size: 25px; 
+  }
+  .active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: white !important;
+  }
+  .dropdown-item {
+    color: #213159 !important;
+  }
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #f04b4c !important;
+  }
+  
+  .nav-link:hover {
+    background-color:#E7E7E7 !important;
+   }
+  
+  .navbar-brand:hover {
+  color: #f04b4c !important;
+  }
+  
+  a {
+    color: #E7E7E7;
+    font-size: 15px;
+  }
+  
+
+
+
+  /* Images */
+  img{
+    width:100% !important;
+    height:100% !important;
+  }
+  .active, .panel:hover {
+    border-color:#213159;
+    border-style: solid;
+    
+  }
+  .vizualization {
+    width:50% !important;
+    height:50% !important;
+  }
+  
+
+
+
+  /* Title */
+  .title {
+    color: #3d6098;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+  
+  /* Paragraph */
+  p {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  }
+  
+  /* Box */
+  .box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: #213159;
+    background-color: white;
+  
+  }
+
+/*Footer*/
+footer{
+    background-color: #666666; 
+    border-top-style: solid; 
+    border-top-width: 5px; 
+    border-top-color: #0BADA6;
+    color: white; 
+    min-height: 55px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px; 
+    }
+
+
+/* Table */
+.table {
+    font-size: 15px;
+    border-top-color: white !important;
+  }
+
+
+/* Media Queries */
+@media(max-width: 900px) {
+    .navbar-expand-lg {
+    background-color: #213159 !important;
+    }
+    .navbar {
+      max-height: none;
+      padding: inherit;
+    }
+    .navbar div {
+      margin: inherit;
+      background-color:whitesmoke;
+    }
+    .navbar-brand {
+      padding: 10px !important;
+    }
+    button{
+      margin-right: 30px;
+      border-color: white !important
+      
+    }
+    button:focus {
+      outline: 1px dotted;
+      outline: auto 5px;
+      background-color: white !important
+    }
+  }
+
+
+
